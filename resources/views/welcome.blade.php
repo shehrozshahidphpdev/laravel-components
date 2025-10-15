@@ -19,6 +19,15 @@
         <x-alert type="warning" message="this is a waring message" />
         <x-alert type="danger" message="this is a danger message" />
     </div>
+    <x-card>
+        <x-slot:title>
+            this is a title
+        </x-slot:title>
+        this is the content which injected in the slot area
+        <x-slot:link>
+            Click Me
+        </x-slot:link>
+    </x-card>
 </body>
 
 </html>
